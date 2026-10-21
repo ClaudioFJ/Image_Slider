@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "WILD / STORIES — Slider de imágenes",
+    "description": "Descubre especies extraordinarias en una experiencia visual interactiva."
+  },
+  "brand": {
+    "name": "WILD / STORIES"
+  },
+  "header": {
+    "avatarAlt": "Mi avatar"
+  },
+  "hero": {
+    "eyebrow": "EXPLORACIÓN • VIDA SALVAJE",
+    "title": "La naturaleza en cada detalle.",
+    "subtitle": "Descubre especies extraordinarias en una experiencia visual interactiva."
+  },
+  "slider": {
+    "featured": "DESTACADO",
+    "sectionLabel": "Galería de vida salvaje",
+    "carouselDescription": "carrusel"
+  },
+  "controls": {
+    "groupLabel": "Controles del slider",
+    "previous": "Imagen anterior",
+    "next": "Imagen siguiente",
+    "selectLabel": "Seleccionar diapositiva",
+    "goToSlide": "Ir a la imagen {{number}}"
+  },
+  "slides": {
+    "cachorros": {
+      "animal": "Cachorritos",
+      "badge": "PERROS",
+      "alt": "Cachorritos en un campo florido",
+      "summary": "Pequeños compañeros, grandes personalidades.",
+      "description": "Las razas pequeñas son conocidas por su curiosidad, energía y apego a sus dueños."
+    },
+    "urso": {
+      "animal": "Oso",
+      "badge": "OSOS",
+      "alt": "Una osezna junto a un oso adulto",
+      "summary": "Fuerza, cuidado y vida salvaje.",
+      "description": "Los osos viven en diversos hábitats y presentan dietas y comportamientos variados."
+    },
+    "panda": {
+      "animal": "Panda gigante",
+      "badge": "PANDA GIGANTE",
+      "alt": "Pandas descansando en su hábitat",
+      "summary": "Tranquilo, curioso e inconfundible.",
+      "description": "El panda gigante vive en China, se alimenta principalmente de bambú y es un excelente escalador."
+    },
+    "leao": {
+      "animal": "León",
+      "badge": "LEONES",
+      "alt": "Una leona descansando en una rama",
+      "summary": "Un gran felino social.",
+      "description": "Los leones viven en grupos sociales y son depredadores habilidosos."
+    },
+    "girafa": {
+      "animal": "Jirafa",
+      "badge": "JIRAFAS",
+      "alt": "Dos jirafas en la sabana",
+      "summary": "La mayor altura entre los animales terrestres.",
+      "description": "Su largo cuello le permite alcanzar las hojas en lo alto de los árboles africanos."
+    }
+  },
+  "footer": {
+    "stack": "REACT • TAILWIND CSS • JAVASCRIPT"
+  },
+  "language": {
+    "label": "Seleccionar idioma",
+    "current": "Idioma actual: {{language}}"
+  },
+  "theme": {
+    "label": "Alternar tema",
+    "light": "Cambiar al tema claro",
+    "dark": "Cambiar al tema oscuro"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "WILD / STORIES — Image slider",
+    "description": "Discover extraordinary species in an interactive visual experience."
+  },
+  "brand": {
+    "name": "WILD / STORIES"
+  },
+  "header": {
+    "avatarAlt": "My avatar"
+  },
+  "hero": {
+    "eyebrow": "EXPLORATION • WILDLIFE",
+    "title": "Nature in every detail.",
+    "subtitle": "Discover extraordinary species in an interactive visual experience."
+  },
+  "slider": {
+    "featured": "FEATURED",
+    "sectionLabel": "Wildlife gallery",
+    "carouselDescription": "carousel"
+  },
+  "controls": {
+    "groupLabel": "Slider controls",
+    "previous": "Previous image",
+    "next": "Next image",
+    "selectLabel": "Select slide",
+    "goToSlide": "Go to image {{number}}"
+  },
+  "slides": {
+    "cachorros": {
+      "animal": "Puppies",
+      "badge": "DOGS",
+      "alt": "Puppies in a flowery field",
+      "summary": "Small companions, big personalities.",
+      "description": "Small breeds are known for their curiosity, energy and affection for their owners."
+    },
+    "urso": {
+      "animal": "Bear",
+      "badge": "BEARS",
+      "alt": "A bear cub next to an adult bear",
+      "summary": "Strength, care and the wild.",
+      "description": "Bears live in a wide range of habitats and show varied diets and behaviours."
+    },
+    "panda": {
+      "animal": "Giant panda",
+      "badge": "GIANT PANDA",
+      "alt": "Pandas resting in their habitat",
+      "summary": "Calm, curious and unmistakable.",
+      "description": "The giant panda lives in China, feeds mainly on bamboo and is an excellent climber."
+    },
+    "leao": {
+      "animal": "Lion",
+      "badge": "LIONS",
+      "alt": "A lioness resting on a branch",
+      "summary": "A great social feline.",
+      "description": "Lions live in social groups and are skilled predators."
+    },
+    "girafa": {
+      "animal": "Giraffe",
+      "badge": "GIRAFFES",
+      "alt": "Two giraffes in the savanna",
+      "summary": "The tallest of all land animals.",
+      "description": "Its long neck allows it to reach leaves high up in African trees."
+    }
+  },
+  "footer": {
+    "stack": "REACT • TAILWIND CSS • JAVASCRIPT"
+  },
+  "language": {
+    "label": "Select language",
+    "current": "Current language: {{language}}"
+  },
+  "theme": {
+    "label": "Toggle theme",
+    "light": "Switch to light theme",
+    "dark": "Switch to dark theme"
+  }
+}

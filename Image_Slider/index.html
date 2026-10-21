@@ -1,10 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>image-slider</title>
+    <title>WILD / STORIES — Slider de imagens</title>
+    <script>
+      // Aplica o tema antes da renderização para evitar "flash" de cor clara.
+      (function () {
+        try {
+          var stored = localStorage.getItem('wild-stories-theme');
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light';
+          document.documentElement.classList.toggle('dark', theme === 'dark');
+          document.documentElement.style.colorScheme = theme;
+        } catch (error) {
+          /* localStorage indisponível: segue com o tema claro. */
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
